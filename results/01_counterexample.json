@@ -1,0 +1,79 @@
+{
+  "population_types": [
+    {
+      "name": "T1",
+      "weight": 0.35,
+      "tc": 4,
+      "ch": 7,
+      "ex": 10,
+      "te": 14,
+      "W_A": 7,
+      "W_B": 14
+    },
+    {
+      "name": "T2",
+      "weight": 0.25,
+      "tc": 8,
+      "ch": 12,
+      "ex": 16,
+      "te": 22,
+      "W_A": 12,
+      "W_B": 22
+    },
+    {
+      "name": "T3",
+      "weight": 0.25,
+      "tc": 12,
+      "ch": 18,
+      "ex": 24,
+      "te": 32,
+      "W_A": 18,
+      "W_B": 32
+    },
+    {
+      "name": "T4",
+      "weight": 0.15,
+      "tc": 16,
+      "ch": 24,
+      "ex": 32,
+      "te": 44,
+      "W_A": 24,
+      "W_B": 44
+    }
+  ],
+  "coherence": {
+    "A_tc<=W<=te": true,
+    "B_tc<=W<=te": true
+  },
+  "psm_points_identical_AB": {
+    "PMC": {
+      "price": 12.0002,
+      "height": 0.35
+    },
+    "OPP": {
+      "price": 13.999428571428572,
+      "height": 0.15
+    },
+    "IPP": {
+      "price": 15.9992,
+      "height": 0.4
+    },
+    "PME": {
+      "price": 18.0002,
+      "height": 0.35
+    }
+  },
+  "revenue_optimum_A": {
+    "p_star": 12.0,
+    "revenue": 7.800000000000001
+  },
+  "revenue_optimum_B": {
+    "p_star": 22.0,
+    "revenue": 14.3
+  },
+  "straddles_OPP": true,
+  "psm_error_A_signed": 1.999428571428572,
+  "psm_error_B_signed": -8.000571428571428,
+  "revenue_loss_at_OPP_A": 0.28208058608058606,
+  "revenue_loss_at_OPP_B": 0.02101898101898103
+}

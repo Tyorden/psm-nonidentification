@@ -1,0 +1,131 @@
+{
+  "grid": {
+    "lo": 0.0,
+    "hi": 50.0,
+    "n": 50001
+  },
+  "population_support": {
+    "min": 4,
+    "max": 44
+  },
+  "coherence": {
+    "A_tc<=W<=te": true,
+    "B_tc<=W<=te": true
+  },
+  "psm_points_full_grid": {
+    "PMC": {
+      "price": 12.0002,
+      "height": 0.35
+    },
+    "OPP": {
+      "price": 13.999428571428572,
+      "height": 0.15
+    },
+    "IPP": {
+      "price": 15.9992,
+      "height": 0.4
+    },
+    "PME": {
+      "price": 18.0002,
+      "height": 0.35
+    }
+  },
+  "atom_revenue_table_A": [
+    {
+      "price": 7,
+      "P(W>=p)": 1.0,
+      "revenue": 7.0
+    },
+    {
+      "price": 12,
+      "P(W>=p)": 0.65,
+      "revenue": 7.8
+    },
+    {
+      "price": 18,
+      "P(W>=p)": 0.4,
+      "revenue": 7.2
+    },
+    {
+      "price": 24,
+      "P(W>=p)": 0.15,
+      "revenue": 3.6
+    }
+  ],
+  "atom_revenue_table_B": [
+    {
+      "price": 14,
+      "P(W>=p)": 1.0,
+      "revenue": 14.0
+    },
+    {
+      "price": 22,
+      "P(W>=p)": 0.65,
+      "revenue": 14.3
+    },
+    {
+      "price": 32,
+      "P(W>=p)": 0.4,
+      "revenue": 12.8
+    },
+    {
+      "price": 44,
+      "P(W>=p)": 0.15,
+      "revenue": 6.6
+    }
+  ],
+  "p_star_A_exact": 12,
+  "revenue_A_exact": 7.8,
+  "p_star_B_exact": 22,
+  "revenue_B_exact": 14.3,
+  "p_star_A_grid": 12.0,
+  "p_star_B_grid": 22.0,
+  "straddles_OPP": true,
+  "psm_error_A_signed_exact": 2,
+  "psm_error_B_signed_exact": -8,
+  "revenue_loss_at_OPP_A": 0.28208058608058595,
+  "revenue_loss_at_OPP_B": 0.02101898101898103,
+  "inner_band_check": {
+    "constraint": "ch <= W <= ex",
+    "atom_revenue_table_ex": [
+      {
+        "price": 10,
+        "P(W>=p)": 1.0,
+        "revenue": 10.0
+      },
+      {
+        "price": 16,
+        "P(W>=p)": 0.65,
+        "revenue": 10.4
+      },
+      {
+        "price": 24,
+        "P(W>=p)": 0.4,
+        "revenue": 9.6
+      },
+      {
+        "price": 32,
+        "P(W>=p)": 0.15,
+        "revenue": 4.8
+      }
+    ],
+    "p_star_W_eq_ch": 12,
+    "p_star_W_eq_ex": 16,
+    "straddles_OPP": true,
+    "revenue_loss_at_OPP_W_eq_ex": 0.12503571428571414
+  },
+  "corollary2_measurement_equation": {
+    "identified_optimum_if_W_equals_te": 22,
+    "identified_optimum_if_W_equals_ch": 12,
+    "OPP": 13.999428571428572,
+    "note": "even with the reading declared (identification restored), the OPP crossing is not the identified revenue maximizer"
+  },
+  "corollary1_degenerate_band_example": {
+    "W_law": "Uniform(2,3), tc = te = W (degenerate band)",
+    "OPP_equals_median": 2.5,
+    "p_star_grid": 2.0,
+    "revenue_at_p_star": 2.0,
+    "revenue_at_OPP": 1.25,
+    "loss_at_OPP": 0.375
+  }
+}
