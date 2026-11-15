@@ -1,0 +1,1581 @@
+{
+  "data_file": "data/dmitriev2019_psm_n52.csv",
+  "sha256": "45c4edca85aecd669d816bc3e81c0e5f91edf4a89cf9564316d8c13fddd96337",
+  "n": 52,
+  "band_wide_minimax_relative_regret": {
+    "survey_COH_tc_te": {
+      "band": "survey_COH_tc_te",
+      "minimax_price": "165",
+      "guaranteed_share": "165/439",
+      "guaranteed_share_float": 0.37585421412300685,
+      "worst_case_share_forgone_pct": 62.41,
+      "worst_case_comparison_price": "439",
+      "worst_case_kind": "above",
+      "explicit_adversary_attains_rho_at_n_candidates": 82,
+      "candidates": 99,
+      "random_readings_checked": 3000,
+      "random_search_largest_regret_at_minimax_price_pct": 62.41,
+      "rows": {
+        "53": {
+          "guaranteed_share_pct": 18.69,
+          "worst_case_share_forgone_pct": 81.31,
+          "worst_q": "301",
+          "kind": "above"
+        },
+        "58": {
+          "guaranteed_share_pct": 20.06,
+          "worst_case_share_forgone_pct": 79.94,
+          "worst_q": "301",
+          "kind": "above"
+        },
+        "60": {
+          "guaranteed_share_pct": 20.34,
+          "worst_case_share_forgone_pct": 79.66,
+          "worst_q": "301",
+          "kind": "above"
+        },
+        "66": {
+          "guaranteed_share_pct": 21.93,
+          "worst_case_share_forgone_pct": 78.07,
+          "worst_q": "301",
+          "kind": "above"
+        },
+        "73": {
+          "guaranteed_share_pct": 24.17,
+          "worst_case_share_forgone_pct": 75.83,
+          "worst_q": "302",
+          "kind": "above"
+        },
+        "78": {
+          "guaranteed_share_pct": 25.4,
+          "worst_case_share_forgone_pct": 74.6,
+          "worst_q": "352",
+          "kind": "above"
+        },
+        "82": {
+          "guaranteed_share_pct": 26.14,
+          "worst_case_share_forgone_pct": 73.86,
+          "worst_q": "352",
+          "kind": "above"
+        },
+        "85": {
+          "guaranteed_share_pct": 26.5,
+          "worst_case_share_forgone_pct": 73.5,
+          "worst_q": "352",
+          "kind": "above"
+        },
+        "95": {
+          "guaranteed_share_pct": 28.96,
+          "worst_case_share_forgone_pct": 71.04,
+          "worst_q": "352",
+          "kind": "above"
+        },
+        "103": {
+          "guaranteed_share_pct": 30.69,
+          "worst_case_share_forgone_pct": 69.31,
+          "worst_q": "352",
+          "kind": "above"
+        },
+        "104": {
+          "guaranteed_share_pct": 30.27,
+          "worst_case_share_forgone_pct": 69.73,
+          "worst_q": "352",
+          "kind": "above"
+        },
+        "108": {
+          "guaranteed_share_pct": 30.68,
+          "worst_case_share_forgone_pct": 69.32,
+          "worst_q": "352",
+          "kind": "above"
+        },
+        "109": {
+          "guaranteed_share_pct": 30.28,
+          "worst_case_share_forgone_pct": 69.72,
+          "worst_q": "360",
+          "kind": "above"
+        },
+        "116": {
+          "guaranteed_share_pct": 31.96,
+          "worst_case_share_forgone_pct": 68.04,
+          "worst_q": "363",
+          "kind": "above"
+        },
+        "125": {
+          "guaranteed_share_pct": 34.25,
+          "worst_case_share_forgone_pct": 65.75,
+          "worst_q": "365",
+          "kind": "above"
+        },
+        "126": {
+          "guaranteed_share_pct": 33.69,
+          "worst_case_share_forgone_pct": 66.31,
+          "worst_q": "374",
+          "kind": "above"
+        },
+        "129": {
+          "guaranteed_share_pct": 34.04,
+          "worst_case_share_forgone_pct": 65.96,
+          "worst_q": "379",
+          "kind": "above"
+        },
+        "130": {
+          "guaranteed_share_pct": 34.03,
+          "worst_case_share_forgone_pct": 65.97,
+          "worst_q": "382",
+          "kind": "above"
+        },
+        "138": {
+          "guaranteed_share_pct": 35.94,
+          "worst_case_share_forgone_pct": 64.06,
+          "worst_q": "384",
+          "kind": "above"
+        },
+        "144": {
+          "guaranteed_share_pct": 36.75,
+          "worst_case_share_forgone_pct": 63.25,
+          "worst_q": "418",
+          "kind": "above"
+        },
+        "148": {
+          "guaranteed_share_pct": 36.59,
+          "worst_case_share_forgone_pct": 63.41,
+          "worst_q": "418",
+          "kind": "above"
+        },
+        "151": {
+          "guaranteed_share_pct": 36.12,
+          "worst_case_share_forgone_pct": 63.88,
+          "worst_q": "418",
+          "kind": "above"
+        },
+        "152": {
+          "guaranteed_share_pct": 36.28,
+          "worst_case_share_forgone_pct": 63.72,
+          "worst_q": "419",
+          "kind": "above"
+        },
+        "155": {
+          "guaranteed_share_pct": 36.82,
+          "worst_case_share_forgone_pct": 63.18,
+          "worst_q": "421",
+          "kind": "above"
+        },
+        "157": {
+          "guaranteed_share_pct": 37.2,
+          "worst_case_share_forgone_pct": 62.8,
+          "worst_q": "422",
+          "kind": "above"
+        },
+        "159": {
+          "guaranteed_share_pct": 37.15,
+          "worst_case_share_forgone_pct": 62.85,
+          "worst_q": "428",
+          "kind": "above"
+        },
+        "162": {
+          "guaranteed_share_pct": 37.5,
+          "worst_case_share_forgone_pct": 62.5,
+          "worst_q": "432",
+          "kind": "above"
+        },
+        "163": {
+          "guaranteed_share_pct": 37.39,
+          "worst_case_share_forgone_pct": 62.61,
+          "worst_q": "436",
+          "kind": "above"
+        },
+        "165": {
+          "guaranteed_share_pct": 37.59,
+          "worst_case_share_forgone_pct": 62.41,
+          "worst_q": "439",
+          "kind": "above"
+        },
+        "167": {
+          "guaranteed_share_pct": 36.15,
+          "worst_case_share_forgone_pct": 63.85,
+          "worst_q": "462",
+          "kind": "above"
+        },
+        "173": {
+          "guaranteed_share_pct": 37.04,
+          "worst_case_share_forgone_pct": 62.96,
+          "worst_q": "467",
+          "kind": "above"
+        },
+        "181": {
+          "guaranteed_share_pct": 36.54,
+          "worst_case_share_forgone_pct": 63.46,
+          "worst_q": "181",
+          "kind": "left-limit"
+        },
+        "183": {
+          "guaranteed_share_pct": 34.62,
+          "worst_case_share_forgone_pct": 65.38,
+          "worst_q": "183",
+          "kind": "left-limit"
+        },
+        "184": {
+          "guaranteed_share_pct": 32.69,
+          "worst_case_share_forgone_pct": 67.31,
+          "worst_q": "184",
+          "kind": "left-limit"
+        },
+        "186": {
+          "guaranteed_share_pct": 30.77,
+          "worst_case_share_forgone_pct": 69.23,
+          "worst_q": "186",
+          "kind": "left-limit"
+        },
+        "193": {
+          "guaranteed_share_pct": 26.92,
+          "worst_case_share_forgone_pct": 73.08,
+          "worst_q": "193",
+          "kind": "left-limit"
+        },
+        "196": {
+          "guaranteed_share_pct": 25.0,
+          "worst_case_share_forgone_pct": 75.0,
+          "worst_q": "196",
+          "kind": "left-limit"
+        },
+        "198": {
+          "guaranteed_share_pct": 23.08,
+          "worst_case_share_forgone_pct": 76.92,
+          "worst_q": "198",
+          "kind": "left-limit"
+        },
+        "200": {
+          "guaranteed_share_pct": 21.15,
+          "worst_case_share_forgone_pct": 78.85,
+          "worst_q": "200",
+          "kind": "left-limit"
+        },
+        "205": {
+          "guaranteed_share_pct": 19.23,
+          "worst_case_share_forgone_pct": 80.77,
+          "worst_q": "205",
+          "kind": "left-limit"
+        },
+        "206": {
+          "guaranteed_share_pct": 17.31,
+          "worst_case_share_forgone_pct": 82.69,
+          "worst_q": "206",
+          "kind": "left-limit"
+        },
+        "209": {
+          "guaranteed_share_pct": 15.38,
+          "worst_case_share_forgone_pct": 84.62,
+          "worst_q": "209",
+          "kind": "left-limit"
+        },
+        "225": {
+          "guaranteed_share_pct": 13.46,
+          "worst_case_share_forgone_pct": 86.54,
+          "worst_q": "225",
+          "kind": "left-limit"
+        },
+        "238": {
+          "guaranteed_share_pct": 11.54,
+          "worst_case_share_forgone_pct": 88.46,
+          "worst_q": "238",
+          "kind": "left-limit"
+        },
+        "257": {
+          "guaranteed_share_pct": 9.62,
+          "worst_case_share_forgone_pct": 90.38,
+          "worst_q": "257",
+          "kind": "left-limit"
+        },
+        "259": {
+          "guaranteed_share_pct": 9.69,
+          "worst_case_share_forgone_pct": 90.31,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "270": {
+          "guaranteed_share_pct": 7.84,
+          "worst_case_share_forgone_pct": 92.16,
+          "worst_q": "270",
+          "kind": "left-limit"
+        },
+        "287": {
+          "guaranteed_share_pct": 5.88,
+          "worst_case_share_forgone_pct": 94.12,
+          "worst_q": "287",
+          "kind": "left-limit"
+        },
+        "288": {
+          "guaranteed_share_pct": 5.9,
+          "worst_case_share_forgone_pct": 94.1,
+          "worst_q": "287",
+          "kind": "below"
+        },
+        "290": {
+          "guaranteed_share_pct": 3.96,
+          "worst_case_share_forgone_pct": 96.04,
+          "worst_q": "287",
+          "kind": "below"
+        },
+        "301": {
+          "guaranteed_share_pct": 2.04,
+          "worst_case_share_forgone_pct": 97.96,
+          "worst_q": "301",
+          "kind": "left-limit"
+        },
+        "302": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "305": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "309": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "318": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "322": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "324": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "327": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "352": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "359": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "360": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "363": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "365": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "374": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "379": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "382": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "384": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "390": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "398": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "418": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "419": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "421": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "422": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "428": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "432": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "436": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "439": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "454": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "462": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "467": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "472": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "489": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "522": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "526": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "529": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "560": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "591": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "611": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "620": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "643": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "660": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "685": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "690": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "773": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "838": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "869": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "1152": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "1309": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        },
+        "1350": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "257",
+          "kind": "below"
+        }
+      },
+      "max_g": "4625/52",
+      "max_h": "14749/52",
+      "text_rows": {
+        "125": {
+          "guaranteed_share_pct": 34.25,
+          "worst_case_share_forgone_pct": 65.75,
+          "worst_q": "365",
+          "kind": "above"
+        },
+        "251": {
+          "guaranteed_share_pct": 9.62,
+          "worst_case_share_forgone_pct": 90.38,
+          "worst_q": "251",
+          "kind": "left-limit"
+        },
+        "253": {
+          "guaranteed_share_pct": 9.62,
+          "worst_case_share_forgone_pct": 90.38,
+          "worst_q": "253",
+          "kind": "left-limit"
+        },
+        "257": {
+          "guaranteed_share_pct": 9.62,
+          "worst_case_share_forgone_pct": 90.38,
+          "worst_q": "257",
+          "kind": "left-limit"
+        },
+        "290": {
+          "guaranteed_share_pct": 3.96,
+          "worst_case_share_forgone_pct": 96.04,
+          "worst_q": "287",
+          "kind": "below"
+        },
+        "301": {
+          "guaranteed_share_pct": 2.04,
+          "worst_case_share_forgone_pct": 97.96,
+          "worst_q": "301",
+          "kind": "left-limit"
+        }
+      },
+      "left_limit_candidates_checked": 17
+    },
+    "survey_inner_ch_ex": {
+      "band": "survey_inner_ch_ex",
+      "minimax_price": "236",
+      "guaranteed_share": "40/51",
+      "guaranteed_share_float": 0.7843137254901961,
+      "worst_case_share_forgone_pct": 21.57,
+      "worst_case_comparison_price": "236",
+      "worst_case_kind": "left-limit",
+      "explicit_adversary_attains_rho_at_n_candidates": 82,
+      "candidates": 86,
+      "random_readings_checked": 3000,
+      "random_search_largest_regret_at_minimax_price_pct": 19.85,
+      "rows": {
+        "145": {
+          "guaranteed_share_pct": 59.6,
+          "worst_case_share_forgone_pct": 40.4,
+          "worst_q": "253",
+          "kind": "above"
+        },
+        "172": {
+          "guaranteed_share_pct": 69.34,
+          "worst_case_share_forgone_pct": 30.66,
+          "worst_q": "253",
+          "kind": "above"
+        },
+        "173": {
+          "guaranteed_share_pct": 68.38,
+          "worst_case_share_forgone_pct": 31.62,
+          "worst_q": "253",
+          "kind": "above"
+        },
+        "175": {
+          "guaranteed_share_pct": 68.9,
+          "worst_case_share_forgone_pct": 31.1,
+          "worst_q": "254",
+          "kind": "above"
+        },
+        "186": {
+          "guaranteed_share_pct": 72.41,
+          "worst_case_share_forgone_pct": 27.59,
+          "worst_q": "274",
+          "kind": "above"
+        },
+        "199": {
+          "guaranteed_share_pct": 72.63,
+          "worst_case_share_forgone_pct": 27.37,
+          "worst_q": "274",
+          "kind": "above"
+        },
+        "201": {
+          "guaranteed_share_pct": 72.56,
+          "worst_case_share_forgone_pct": 27.44,
+          "worst_q": "277",
+          "kind": "above"
+        },
+        "202": {
+          "guaranteed_share_pct": 72.31,
+          "worst_case_share_forgone_pct": 27.69,
+          "worst_q": "293",
+          "kind": "above"
+        },
+        "204": {
+          "guaranteed_share_pct": 71.32,
+          "worst_case_share_forgone_pct": 28.68,
+          "worst_q": "293",
+          "kind": "above"
+        },
+        "220": {
+          "guaranteed_share_pct": 76.92,
+          "worst_case_share_forgone_pct": 23.08,
+          "worst_q": "293",
+          "kind": "above"
+        },
+        "222": {
+          "guaranteed_share_pct": 75.77,
+          "worst_case_share_forgone_pct": 24.23,
+          "worst_q": "293",
+          "kind": "above"
+        },
+        "236": {
+          "guaranteed_share_pct": 78.43,
+          "worst_case_share_forgone_pct": 21.57,
+          "worst_q": "236",
+          "kind": "left-limit"
+        },
+        "239": {
+          "guaranteed_share_pct": 76.47,
+          "worst_case_share_forgone_pct": 23.53,
+          "worst_q": "239",
+          "kind": "left-limit"
+        },
+        "251": {
+          "guaranteed_share_pct": 78.0,
+          "worst_case_share_forgone_pct": 22.0,
+          "worst_q": "251",
+          "kind": "left-limit"
+        },
+        "253": {
+          "guaranteed_share_pct": 76.0,
+          "worst_case_share_forgone_pct": 24.0,
+          "worst_q": "253",
+          "kind": "left-limit"
+        },
+        "254": {
+          "guaranteed_share_pct": 74.29,
+          "worst_case_share_forgone_pct": 25.71,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "255": {
+          "guaranteed_share_pct": 74.58,
+          "worst_case_share_forgone_pct": 25.42,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "256": {
+          "guaranteed_share_pct": 72.85,
+          "worst_case_share_forgone_pct": 27.15,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "257": {
+          "guaranteed_share_pct": 71.11,
+          "worst_case_share_forgone_pct": 28.89,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "260": {
+          "guaranteed_share_pct": 69.88,
+          "worst_case_share_forgone_pct": 30.12,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "262": {
+          "guaranteed_share_pct": 70.42,
+          "worst_case_share_forgone_pct": 29.58,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "264": {
+          "guaranteed_share_pct": 66.78,
+          "worst_case_share_forgone_pct": 33.22,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "266": {
+          "guaranteed_share_pct": 65.19,
+          "worst_case_share_forgone_pct": 34.81,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "271": {
+          "guaranteed_share_pct": 62.13,
+          "worst_case_share_forgone_pct": 37.87,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "274": {
+          "guaranteed_share_pct": 60.65,
+          "worst_case_share_forgone_pct": 39.35,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "276": {
+          "guaranteed_share_pct": 58.91,
+          "worst_case_share_forgone_pct": 41.09,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "277": {
+          "guaranteed_share_pct": 56.93,
+          "worst_case_share_forgone_pct": 43.07,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "279": {
+          "guaranteed_share_pct": 55.14,
+          "worst_case_share_forgone_pct": 44.86,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "280": {
+          "guaranteed_share_pct": 55.34,
+          "worst_case_share_forgone_pct": 44.66,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "283": {
+          "guaranteed_share_pct": 53.69,
+          "worst_case_share_forgone_pct": 46.31,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "284": {
+          "guaranteed_share_pct": 53.88,
+          "worst_case_share_forgone_pct": 46.12,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "286": {
+          "guaranteed_share_pct": 52.0,
+          "worst_case_share_forgone_pct": 48.0,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "288": {
+          "guaranteed_share_pct": 50.09,
+          "worst_case_share_forgone_pct": 49.91,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "291": {
+          "guaranteed_share_pct": 48.31,
+          "worst_case_share_forgone_pct": 51.69,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "293": {
+          "guaranteed_share_pct": 46.32,
+          "worst_case_share_forgone_pct": 53.68,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "294": {
+          "guaranteed_share_pct": 44.16,
+          "worst_case_share_forgone_pct": 55.84,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "295": {
+          "guaranteed_share_pct": 41.98,
+          "worst_case_share_forgone_pct": 58.02,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "300": {
+          "guaranteed_share_pct": 40.32,
+          "worst_case_share_forgone_pct": 59.68,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "301": {
+          "guaranteed_share_pct": 38.07,
+          "worst_case_share_forgone_pct": 61.93,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "302": {
+          "guaranteed_share_pct": 35.81,
+          "worst_case_share_forgone_pct": 64.19,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "303": {
+          "guaranteed_share_pct": 35.93,
+          "worst_case_share_forgone_pct": 64.07,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "306": {
+          "guaranteed_share_pct": 33.87,
+          "worst_case_share_forgone_pct": 66.13,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "307": {
+          "guaranteed_share_pct": 31.55,
+          "worst_case_share_forgone_pct": 68.45,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "308": {
+          "guaranteed_share_pct": 29.22,
+          "worst_case_share_forgone_pct": 70.78,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "310": {
+          "guaranteed_share_pct": 26.96,
+          "worst_case_share_forgone_pct": 73.04,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "311": {
+          "guaranteed_share_pct": 27.04,
+          "worst_case_share_forgone_pct": 72.96,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "313": {
+          "guaranteed_share_pct": 24.74,
+          "worst_case_share_forgone_pct": 75.26,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "314": {
+          "guaranteed_share_pct": 19.86,
+          "worst_case_share_forgone_pct": 80.14,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "315": {
+          "guaranteed_share_pct": 17.43,
+          "worst_case_share_forgone_pct": 82.57,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "320": {
+          "guaranteed_share_pct": 17.71,
+          "worst_case_share_forgone_pct": 82.29,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "322": {
+          "guaranteed_share_pct": 15.27,
+          "worst_case_share_forgone_pct": 84.73,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "323": {
+          "guaranteed_share_pct": 12.77,
+          "worst_case_share_forgone_pct": 87.23,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "327": {
+          "guaranteed_share_pct": 10.34,
+          "worst_case_share_forgone_pct": 89.66,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "333": {
+          "guaranteed_share_pct": 7.9,
+          "worst_case_share_forgone_pct": 92.1,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "335": {
+          "guaranteed_share_pct": 7.94,
+          "worst_case_share_forgone_pct": 92.06,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "336": {
+          "guaranteed_share_pct": 7.97,
+          "worst_case_share_forgone_pct": 92.03,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "339": {
+          "guaranteed_share_pct": 5.36,
+          "worst_case_share_forgone_pct": 94.64,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "341": {
+          "guaranteed_share_pct": 5.39,
+          "worst_case_share_forgone_pct": 94.61,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "343": {
+          "guaranteed_share_pct": 5.42,
+          "worst_case_share_forgone_pct": 94.58,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "350": {
+          "guaranteed_share_pct": 2.77,
+          "worst_case_share_forgone_pct": 97.23,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "354": {
+          "guaranteed_share_pct": 2.8,
+          "worst_case_share_forgone_pct": 97.2,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "355": {
+          "guaranteed_share_pct": 2.81,
+          "worst_case_share_forgone_pct": 97.19,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "359": {
+          "guaranteed_share_pct": 2.84,
+          "worst_case_share_forgone_pct": 97.16,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "361": {
+          "guaranteed_share_pct": 2.85,
+          "worst_case_share_forgone_pct": 97.15,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "362": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "364": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "367": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "368": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "373": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "374": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "377": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "381": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "391": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "394": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "399": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "403": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "408": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "424": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "427": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "430": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "438": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "439": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "474": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "508": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "581": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        },
+        "655": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "204",
+          "kind": "below"
+        }
+      },
+      "max_g": "753/4",
+      "max_h": "6325/26",
+      "text_rows": {
+        "125": {
+          "guaranteed_share_pct": 51.38,
+          "worst_case_share_forgone_pct": 48.62,
+          "worst_q": "253",
+          "kind": "above"
+        },
+        "251": {
+          "guaranteed_share_pct": 78.0,
+          "worst_case_share_forgone_pct": 22.0,
+          "worst_q": "251",
+          "kind": "left-limit"
+        },
+        "253": {
+          "guaranteed_share_pct": 76.0,
+          "worst_case_share_forgone_pct": 24.0,
+          "worst_q": "253",
+          "kind": "left-limit"
+        },
+        "257": {
+          "guaranteed_share_pct": 71.11,
+          "worst_case_share_forgone_pct": 28.89,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "290": {
+          "guaranteed_share_pct": 48.14,
+          "worst_case_share_forgone_pct": 51.86,
+          "worst_q": "253",
+          "kind": "below"
+        },
+        "301": {
+          "guaranteed_share_pct": 38.07,
+          "worst_case_share_forgone_pct": 61.93,
+          "worst_q": "253",
+          "kind": "below"
+        }
+      },
+      "left_limit_candidates_checked": 4
+    },
+    "witness_COH_tc_te": {
+      "band": "witness_COH_tc_te",
+      "minimax_price": "12",
+      "guaranteed_share": "3/8",
+      "guaranteed_share_float": 0.375,
+      "worst_case_share_forgone_pct": 62.5,
+      "worst_case_comparison_price": "32",
+      "worst_case_kind": "above",
+      "explicit_adversary_attains_rho_at_n_candidates": 7,
+      "candidates": 8,
+      "random_readings_checked": 3000,
+      "random_search_largest_regret_at_minimax_price_pct": 62.5,
+      "rows": {
+        "4": {
+          "guaranteed_share_pct": 27.97,
+          "worst_case_share_forgone_pct": 72.03,
+          "worst_q": "22",
+          "kind": "above"
+        },
+        "8": {
+          "guaranteed_share_pct": 36.36,
+          "worst_case_share_forgone_pct": 63.64,
+          "worst_q": "22",
+          "kind": "above"
+        },
+        "12": {
+          "guaranteed_share_pct": 37.5,
+          "worst_case_share_forgone_pct": 62.5,
+          "worst_q": "32",
+          "kind": "above"
+        },
+        "14": {
+          "guaranteed_share_pct": 15.0,
+          "worst_case_share_forgone_pct": 85.0,
+          "worst_q": "14",
+          "kind": "left-limit"
+        },
+        "16": {
+          "guaranteed_share_pct": 17.14,
+          "worst_case_share_forgone_pct": 82.86,
+          "worst_q": "14",
+          "kind": "below"
+        },
+        "22": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "14",
+          "kind": "below"
+        },
+        "32": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "14",
+          "kind": "below"
+        },
+        "44": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "14",
+          "kind": "below"
+        }
+      },
+      "max_g": "26/5",
+      "max_h": "143/10",
+      "text_rows": {
+        "8": {
+          "guaranteed_share_pct": 36.36,
+          "worst_case_share_forgone_pct": 63.64,
+          "worst_q": "22",
+          "kind": "above"
+        },
+        "12": {
+          "guaranteed_share_pct": 37.5,
+          "worst_case_share_forgone_pct": 62.5,
+          "worst_q": "32",
+          "kind": "above"
+        },
+        "14": {
+          "guaranteed_share_pct": 15.0,
+          "worst_case_share_forgone_pct": 85.0,
+          "worst_q": "14",
+          "kind": "left-limit"
+        },
+        "22": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "14",
+          "kind": "below"
+        }
+      }
+    },
+    "witness_inner_ch_ex": {
+      "band": "witness_inner_ch_ex",
+      "minimax_price": "12",
+      "guaranteed_share": "3/4",
+      "guaranteed_share_float": 0.75,
+      "worst_case_share_forgone_pct": 25.0,
+      "worst_case_comparison_price": "16",
+      "worst_case_kind": "above",
+      "explicit_adversary_attains_rho_at_n_candidates": 6,
+      "candidates": 7,
+      "random_readings_checked": 3000,
+      "random_search_largest_regret_at_minimax_price_pct": 25.0,
+      "rows": {
+        "7": {
+          "guaranteed_share_pct": 67.31,
+          "worst_case_share_forgone_pct": 32.69,
+          "worst_q": "16",
+          "kind": "above"
+        },
+        "10": {
+          "guaranteed_share_pct": 62.5,
+          "worst_case_share_forgone_pct": 37.5,
+          "worst_q": "16",
+          "kind": "above"
+        },
+        "12": {
+          "guaranteed_share_pct": 75.0,
+          "worst_case_share_forgone_pct": 25.0,
+          "worst_q": "16",
+          "kind": "above"
+        },
+        "16": {
+          "guaranteed_share_pct": 61.54,
+          "worst_case_share_forgone_pct": 38.46,
+          "worst_q": "16",
+          "kind": "left-limit"
+        },
+        "18": {
+          "guaranteed_share_pct": 69.23,
+          "worst_case_share_forgone_pct": 30.77,
+          "worst_q": "16",
+          "kind": "below"
+        },
+        "24": {
+          "guaranteed_share_pct": 34.62,
+          "worst_case_share_forgone_pct": 65.38,
+          "worst_q": "16",
+          "kind": "below"
+        },
+        "32": {
+          "guaranteed_share_pct": 0.0,
+          "worst_case_share_forgone_pct": 100.0,
+          "worst_q": "10",
+          "kind": "below"
+        }
+      },
+      "max_g": "39/5",
+      "max_h": "52/5",
+      "text_rows": {
+        "8": {
+          "guaranteed_share_pct": 50.0,
+          "worst_case_share_forgone_pct": 50.0,
+          "worst_q": "16",
+          "kind": "above"
+        },
+        "12": {
+          "guaranteed_share_pct": 75.0,
+          "worst_case_share_forgone_pct": 25.0,
+          "worst_q": "16",
+          "kind": "above"
+        },
+        "14": {
+          "guaranteed_share_pct": 56.0,
+          "worst_case_share_forgone_pct": 44.0,
+          "worst_q": "10",
+          "kind": "below"
+        },
+        "22": {
+          "guaranteed_share_pct": 31.73,
+          "worst_case_share_forgone_pct": 68.27,
+          "worst_q": "16",
+          "kind": "below"
+        }
+      }
+    }
+  },
+  "crossing_convention": {
+    "survey": {
+      "OPP": {
+        "inf_diff_nonpositive": "288",
+        "inf_diff_negative": "290",
+        "height": "1/26",
+        "height_in_respondents_or_weight_x_n": 2
+      },
+      "IPP": {
+        "inf_diff_nonpositive": "303",
+        "inf_diff_negative": "306",
+        "height": "7/26",
+        "height_in_respondents_or_weight_x_n": 14
+      },
+      "PMC": {
+        "inf_diff_nonpositive": "256",
+        "inf_diff_negative": "257",
+        "height": "5/52",
+        "height_in_respondents_or_weight_x_n": 5
+      },
+      "PME": {
+        "inf_diff_nonpositive": "314",
+        "inf_diff_negative": "318",
+        "height": "7/52",
+        "height_in_respondents_or_weight_x_n": 7
+      }
+    },
+    "witness": {
+      "OPP": {
+        "inf_diff_nonpositive": "14",
+        "inf_diff_negative": "14",
+        "height": "3/20",
+        "height_in_respondents_or_weight_x_n": 3
+      },
+      "IPP": {
+        "inf_diff_nonpositive": "16",
+        "inf_diff_negative": "16",
+        "height": "2/5",
+        "height_in_respondents_or_weight_x_n": 8
+      },
+      "PMC": {
+        "inf_diff_nonpositive": "12",
+        "inf_diff_negative": "12",
+        "height": "7/20",
+        "height_in_respondents_or_weight_x_n": 7
+      },
+      "PME": {
+        "inf_diff_nonpositive": "18",
+        "inf_diff_negative": "18",
+        "height": "7/20",
+        "height_in_respondents_or_weight_x_n": 7
+      }
+    }
+  },
+  "overlap": {
+    "survey_max_tc": 301,
+    "survey_min_te": 257,
+    "survey_tc_answers_at_or_above_min_te": 5,
+    "witness_max_tc": 16,
+    "witness_min_te": 14
+  },
+  "ties_and_ordering": {
+    "rows_violating_ORD_as_printed": 0,
+    "rows_with_a_tie_as_printed": [],
+    "n_after_dropping_ties": 52
+  },
+  "alternative_demand_tc_lt_p_le_W": {
+    "witness": {
+      "p_star_W_eq_ch": "18",
+      "revenue_ch": "36/5",
+      "p_star_W_eq_te": "22",
+      "revenue_te": "143/10",
+      "loss_at_OPP_14_ch_pct": 51.39,
+      "loss_at_OPP_14_te_pct": 16.78,
+      "reading_with_optimum_below_OPP": {
+        "W_by_segment": [
+          13,
+          13,
+          13,
+          16
+        ],
+        "optimum": "13",
+        "revenue": "221/20"
+      }
+    },
+    "survey": {
+      "p_star_W_eq_ch": "251",
+      "revenue_ch": "4267/26",
+      "p_star_W_eq_te": "302",
+      "revenue_te": "3624/13",
+      "loss_at_290_ch_pct": 35.43,
+      "loss_at_290_te_pct": 3.97
+    }
+  },
+  "section7_population_values": {
+    "OPP": 17.9938512022298,
+    "height_at_OPP": 0.2992647027132693,
+    "p_star_A": 18.76430274229086,
+    "R_star_A": 6.912851306940432,
+    "p_star_B": 14.725888449049272,
+    "R_star_B": 13.597082794633588,
+    "loss_at_OPP_A_pct": 0.84,
+    "loss_at_OPP_B_pct": 22.48,
+    "second_local_max_A": [
+      7.92923729352443,
+      6.520085308462164
+    ],
+    "second_local_max_B": [
+      26.159517120853252,
+      9.905928047411466
+    ]
+  },
+  "proposition3_family": [
+    {
+      "delta": "1/5",
+      "K": 17,
+      "OPP": "4",
+      "height": "1/5",
+      "p_star_W_eq_te": "4",
+      "loss_at_OPP": "0",
+      "loss_pct": 0.0
+    },
+    {
+      "delta": "1/5",
+      "K": 97,
+      "OPP": "4",
+      "height": "1/5",
+      "p_star_W_eq_te": "100",
+      "loss_at_OPP": "4/5",
+      "loss_pct": 80.0
+    },
+    {
+      "delta": "1/5",
+      "K": 997,
+      "OPP": "4",
+      "height": "1/5",
+      "p_star_W_eq_te": "1000",
+      "loss_at_OPP": "49/50",
+      "loss_pct": 98.0
+    },
+    {
+      "delta": "1/10",
+      "K": 37,
+      "OPP": "4",
+      "height": "1/10",
+      "p_star_W_eq_te": "4",
+      "loss_at_OPP": "0",
+      "loss_pct": 0.0
+    }
+  ],
+  "three_reading_minimax": {
+    "price": 257,
+    "worst_pct": 9.39,
+    "smallest_walk_away_answer": 257,
+    "walk_away_loss_at_257": "1385/14749",
+    "walk_away_demand_at_257": "1",
+    "note": "for p <= 257 every respondent buys under W = te, so the walk-away loss is 1 - p/R*_te, decreasing in p; just above 257 the walk-away demand drops to 51/52 and the bargain loss keeps rising; the minimum of the maximum sits at the kink",
+    "worst_at_256_pct": 9.74,
+    "worst_at_258_pct": 10.79,
+    "losses_at_257": {
+      "ch": "794/9789",
+      "ex": "571/12650",
+      "te": "1385/14749"
+    }
+  },
+  "losses_at_236": {
+    "ch": 3.57,
+    "ex": 4.85,
+    "te": 16.79,
+    "worst_three_readings_pct": 16.79
+  },
+  "losses_at_165": {
+    "ch": 14.04,
+    "ex": 32.17,
+    "te": 41.83
+  }
+}

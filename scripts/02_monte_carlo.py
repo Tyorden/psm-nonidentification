@@ -38,6 +38,30 @@ os.makedirs(RESULTS, exist_ok=True)
 GRID = np.linspace(0.0, 45.0, 45001)
 
 
+def _save_figure(fig, stem):
+    """Journal figure rule (JRPM, read 2026-11-07): black and white only; EPS
+    preferred, PDF and TIFF acceptable. Writes a vector PDF and EPS, a 600 dpi
+    PNG, and (if Pillow is present) a 600 dpi RGB TIFF without an alpha
+    channel."""
+    fig.savefig(stem + ".pdf")
+    fig.savefig(stem + ".eps")
+    fig.savefig(stem + ".png", dpi=600, facecolor="white")
+    try:
+        from PIL import Image
+        im = Image.open(stem + ".png").convert("RGB")
+        im.save(stem + ".tif", dpi=(600, 600), compression="tiff_lzw")
+    except Exception as e:  # noqa
+        print("tiff skipped:", e)
+
+
+_RC = {"font.size": 8, "axes.titlesize": 9, "legend.fontsize": 7,
+       "axes.labelsize": 8, "xtick.labelsize": 7, "ytick.labelsize": 7}
+_CURVE_STYLES = (("toocheap", "too cheap", "black", "-"),
+                 ("cheap", "cheap", "black", "--"),
+                 ("expensive", "expensive", "0.45", "-"),
+                 ("tooexpensive", "too expensive", "0.45", "--"))
+
+
 def draw_v(n, rng):
     comp = rng.random(n) < 0.60
     v = np.where(comp, rng.normal(10, 2, n), rng.normal(24, 3, n))
@@ -137,36 +161,48 @@ def run():
         json.dump(log, f, indent=2)
     print("\nwrote results/02_monte_carlo.json")
 
-    # ---- optional figure ---------------------------------------------------
+    # ---- optional figure (black and white, vector) --------------------------
+    # Changed 2026-11-07 for the JRPM version of the paper: greyscale with
+    # distinct line styles, larger fonts, 6.5 x 2.8 in, vector PDF/EPS plus a
+    # 600 dpi TIFF without alpha (journal rule: black and white only). The
+    # numerical outputs above are unchanged.
     try:
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
-        fig, ax = plt.subplots(1, 2, figsize=(12, 4.6))
+        plt.rcParams.update(_RC)
+        fig, ax = plt.subplots(1, 2, figsize=(6.5, 2.8))
         g = GRID
-        ax[0].plot(g, psm["toocheap"], label="too cheap")
-        ax[0].plot(g, psm["cheap"], label="cheap")
-        ax[0].plot(g, psm["expensive"], label="expensive")
-        ax[0].plot(g, psm["tooexpensive"], label="too expensive")
-        for k, c in [("PMC", "grey"), ("OPP", "black"),
-                     ("IPP", "grey"), ("PME", "grey")]:
-            ax[0].axvline(psm[k][0], ls="--", lw=1, color=c)
-            ax[0].text(psm[k][0], 1.01, k, rotation=90, fontsize=8, va="bottom")
+        for key, lab, col, ls in _CURVE_STYLES:
+            ax[0].plot(g, psm[key], color=col, ls=ls, lw=1.1, label=lab)
+        for k in ("PMC", "OPP", "IPP", "PME"):
+            ax[0].axvline(psm[k][0], ls="--" if k == "OPP" else ":", lw=0.8,
+                          color="black" if k == "OPP" else "0.55")
+        # PMC/IPP and OPP/PME lie within 0.7 price units of each other, so
+        # each pair gets one two-line label beside its lines
+        ax[0].text(psm["PMC"][0] - 0.5, 1.03,
+                   f"PMC {psm['PMC'][0]:.2f}\nIPP {psm['IPP'][0]:.2f}",
+                   fontsize=6.5, ha="right", va="bottom")
+        ax[0].text(psm["PME"][0] + 0.5, 1.03,
+                   f"OPP {psm['OPP'][0]:.2f}\nPME {psm['PME'][0]:.2f}",
+                   fontsize=6.5, ha="left", va="bottom")
         ax[0].set_title("Four PSM curves (identical for A and B)")
-        ax[0].set_xlabel("price"); ax[0].set_ylabel("share"); ax[0].legend(fontsize=8)
-        ax[0].set_xlim(0, 45)
+        ax[0].set_xlabel("price"); ax[0].set_ylabel("share")
+        ax[0].legend(loc="center right", bbox_to_anchor=(1.0, 0.40), frameon=False)
+        ax[0].set_xlim(0, 45); ax[0].set_ylim(0, 1.25)
+        ax[0].set_yticks([0, 0.25, 0.5, 0.75, 1.0])
 
-        ax[1].plot(g, g * DA, label="revenue A  (WTP = cheap)")
-        ax[1].plot(g, g * DB, label="revenue B  (WTP = te-1)")
-        ax[1].axvline(OPP, color="black", ls="--", lw=1, label=f"OPP={OPP:.1f}")
-        ax[1].axvline(pA, color="C0", ls=":", lw=1.5)
-        ax[1].axvline(pB, color="C1", ls=":", lw=1.5)
+        ax[1].plot(g, g * DA, color="black", ls="-", lw=1.1, label="revenue A (W = ch)")
+        ax[1].plot(g, g * DB, color="0.45", ls="--", lw=1.1, label="revenue B (W = te - 1)")
+        ax[1].axvline(OPP, color="black", ls="--", lw=0.8, label=f"OPP = {OPP:.1f}")
+        ax[1].axvline(pA, color="black", ls=":", lw=1.2)
+        ax[1].axvline(pB, color="0.45", ls=":", lw=1.2)
         ax[1].set_title("Revenue curves: optima straddle the OPP")
         ax[1].set_xlabel("price"); ax[1].set_ylabel("p * D(p)")
-        ax[1].legend(fontsize=8); ax[1].set_xlim(0, 45)
+        ax[1].legend(loc="upper right", frameon=False); ax[1].set_xlim(0, 45)
         fig.tight_layout()
-        fig.savefig(os.path.join(RESULTS, "02_figure.png"), dpi=130)
-        print("wrote results/02_figure.png")
+        _save_figure(fig, os.path.join(RESULTS, "02_figure"))
+        print("wrote results/02_figure.pdf, .eps, .png, .tif")
     except Exception as e:  # noqa
         print("figure skipped:", e)
 

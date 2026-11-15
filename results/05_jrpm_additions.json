@@ -1,0 +1,395 @@
+{
+  "data_file": "data/dmitriev2019_psm_n52.csv",
+  "sha256": "45c4edca85aecd669d816bc3e81c0e5f91edf4a89cf9564316d8c13fddd96337",
+  "n": 52,
+  "readings_exact": {
+    "tc": {
+      "p_star": "125",
+      "revenue_at_p_star": "4625/52",
+      "revenue_float": 88.9423076923077
+    },
+    "ch": {
+      "p_star": "251",
+      "revenue_at_p_star": "753/4",
+      "revenue_float": 188.25
+    },
+    "ex": {
+      "p_star": "253",
+      "revenue_at_p_star": "6325/26",
+      "revenue_float": 243.26923076923077
+    },
+    "te": {
+      "p_star": "301",
+      "revenue_at_p_star": "14749/52",
+      "revenue_float": 283.63461538461536
+    }
+  },
+  "identified_sets_published_survey": {
+    "COH_tc_te": {
+      "max_p_g": "4625/52",
+      "max_p_g_float": 88.9423076923077,
+      "set": [
+        {
+          "left": "4625/52",
+          "left_float": 88.9423076923077,
+          "left_closed": true,
+          "right": "690",
+          "right_float": 690.0,
+          "right_closed": true
+        },
+        {
+          "left": "4625/6",
+          "left_float": 770.8333333333334,
+          "left_closed": false,
+          "right": "773",
+          "right_float": 773.0,
+          "right_closed": true
+        }
+      ],
+      "set_text": "[88.94, 690] U (770.8, 773]",
+      "constructive_certificates": [
+        {
+          "q": "4625/52",
+          "in_set": true,
+          "construction_optimum": "4625/52",
+          "construction_revenue": "4625/52"
+        },
+        {
+          "q": "125",
+          "in_set": true,
+          "construction_optimum": "125",
+          "construction_revenue": "125"
+        },
+        {
+          "q": "251",
+          "in_set": true,
+          "construction_optimum": "251",
+          "construction_revenue": "251"
+        },
+        {
+          "q": "290",
+          "in_set": true,
+          "construction_optimum": "290",
+          "construction_revenue": "3625/13"
+        },
+        {
+          "q": "301",
+          "in_set": true,
+          "construction_optimum": "301",
+          "construction_revenue": "14749/52"
+        },
+        {
+          "q": "690",
+          "in_set": true,
+          "construction_optimum": "690",
+          "construction_revenue": "2415/26"
+        },
+        {
+          "q": "700",
+          "in_set": false,
+          "construction_optimum": "125",
+          "construction_revenue": "4625/52"
+        },
+        {
+          "q": "770",
+          "in_set": false,
+          "construction_optimum": "125",
+          "construction_revenue": "4625/52"
+        },
+        {
+          "q": "771",
+          "in_set": true,
+          "construction_optimum": "771",
+          "construction_revenue": "2313/26"
+        },
+        {
+          "q": "773",
+          "in_set": true,
+          "construction_optimum": "773",
+          "construction_revenue": "2319/26"
+        },
+        {
+          "q": "800",
+          "in_set": false,
+          "construction_optimum": "125",
+          "construction_revenue": "4625/52"
+        }
+      ],
+      "walk_away_answers_at_or_above_773": 6,
+      "walk_away_answers_above_690": 6,
+      "smallest_walk_away_answer": 257
+    },
+    "inner_ch_ex": {
+      "max_p_g": "753/4",
+      "max_p_g_float": 188.25,
+      "set": [
+        {
+          "left": "753/4",
+          "left_float": 188.25,
+          "left_closed": true,
+          "right": "354",
+          "right_float": 354.0,
+          "right_closed": true
+        }
+      ],
+      "set_text": "[188.2, 354]",
+      "constructive_certificates": [
+        {
+          "q": "753/4",
+          "in_set": true,
+          "construction_optimum": "753/4",
+          "construction_revenue": "753/4"
+        },
+        {
+          "q": "251",
+          "in_set": true,
+          "construction_optimum": "251",
+          "construction_revenue": "6275/26"
+        },
+        {
+          "q": "253",
+          "in_set": true,
+          "construction_optimum": "253",
+          "construction_revenue": "6325/26"
+        },
+        {
+          "q": "290",
+          "in_set": true,
+          "construction_optimum": "290",
+          "construction_revenue": "5945/26"
+        },
+        {
+          "q": "354",
+          "in_set": true,
+          "construction_optimum": "354",
+          "construction_revenue": "2478/13"
+        },
+        {
+          "q": "355",
+          "in_set": false,
+          "construction_optimum": "251",
+          "construction_revenue": "753/4"
+        },
+        {
+          "q": "400",
+          "in_set": false,
+          "construction_optimum": "251",
+          "construction_revenue": "753/4"
+        }
+      ],
+      "reading_making_290_optimal": {
+        "construction": "W_i = 290 for the respondents with ch_i <= 290 <= ex_i, W_i = ch_i otherwise",
+        "n_respondents_in_window": 20,
+        "optimum": "290",
+        "revenue_at_290": "5945/26",
+        "revenue_float": 228.65384615384616
+      }
+    },
+    "ch_te": {
+      "max_p_g": "753/4",
+      "max_p_g_float": 188.25,
+      "set": [
+        {
+          "left": "753/4",
+          "left_float": 188.25,
+          "left_closed": true,
+          "right": "439",
+          "right_float": 439.0,
+          "right_closed": true
+        },
+        {
+          "left": "9789/22",
+          "left_float": 444.95454545454544,
+          "left_closed": false,
+          "right": "454",
+          "right_float": 454.0,
+          "right_closed": true
+        }
+      ],
+      "set_text": "[188.2, 439] U (445, 454]"
+    }
+  },
+  "identified_sets_witness_table1": {
+    "COH_tc_te": {
+      "max_p_g": "26/5",
+      "max_p_g_float": 5.2,
+      "set": [
+        {
+          "left": "26/5",
+          "left_float": 5.2,
+          "left_closed": true,
+          "right": "32",
+          "right_float": 32.0,
+          "right_closed": true
+        },
+        {
+          "left": "104/3",
+          "left_float": 34.666666666666664,
+          "left_closed": false,
+          "right": "44",
+          "right_float": 44.0,
+          "right_closed": true
+        }
+      ],
+      "set_text": "[5.2, 32] U (34.67, 44]",
+      "reading_making_44_optimal": {
+        "W_by_segment": [
+          4,
+          8,
+          12,
+          44
+        ],
+        "optimum": "44",
+        "revenue": "33/5",
+        "revenue_float": 6.6,
+        "g_at_8": "26/5",
+        "h_on_32_44": "0.15 q, which exceeds 5.2 only for q > 104/3"
+      },
+      "p_star_A_12_in_set": true,
+      "p_star_B_22_in_set": true
+    },
+    "inner_ch_ex": {
+      "max_p_g": "39/5",
+      "max_p_g_float": 7.8,
+      "set": [
+        {
+          "left": "39/5",
+          "left_float": 7.8,
+          "left_closed": true,
+          "right": "10",
+          "right_float": 10.0,
+          "right_closed": true
+        },
+        {
+          "left": "12",
+          "left_float": 12.0,
+          "left_closed": true,
+          "right": "16",
+          "right_float": 16.0,
+          "right_closed": true
+        },
+        {
+          "left": "39/2",
+          "left_float": 19.5,
+          "left_closed": false,
+          "right": "24",
+          "right_float": 24.0,
+          "right_closed": true
+        }
+      ],
+      "set_text": "[7.8, 10] U [12, 16] U (19.5, 24]"
+    }
+  },
+  "special_marginals_example": {
+    "F_tc": "mass 1/2 at 1 and at 100",
+    "F_te": "mass 1/2 at 2 and at 100",
+    "set_text": "[100, 100]",
+    "note": "every coherent reading prices at 100"
+  },
+  "cost_table_published_survey": {
+    "R_star": {
+      "ch": "753/4",
+      "ex": "6325/26",
+      "te": "14749/52"
+    },
+    "rows": {
+      "251": {
+        "label": "bargain optimum",
+        "loss_ch": "0",
+        "loss_ex": "2/253",
+        "loss_te": "1697/14749",
+        "loss_ch_pct": 0.0,
+        "loss_ex_pct": 0.79,
+        "loss_te_pct": 11.51,
+        "worst_case_focal_ch_te_pct": 11.51,
+        "worst_case_all_three_pct": 11.51
+      },
+      "253": {
+        "label": "expensive optimum",
+        "loss_ch": "175/9789",
+        "loss_ex": "0",
+        "loss_te": "1593/14749",
+        "loss_ch_pct": 1.79,
+        "loss_ex_pct": 0.0,
+        "loss_te_pct": 10.8,
+        "worst_case_focal_ch_te_pct": 10.8,
+        "worst_case_all_three_pct": 10.8
+      },
+      "257": {
+        "label": "minimax-regret price",
+        "loss_ch": "794/9789",
+        "loss_ex": "571/12650",
+        "loss_te": "1385/14749",
+        "loss_ch_pct": 8.11,
+        "loss_ex_pct": 4.51,
+        "loss_te_pct": 9.39,
+        "worst_case_focal_ch_te_pct": 9.39,
+        "worst_case_all_three_pct": 9.39
+      },
+      "290": {
+        "label": "published OPP",
+        "loss_ch": "1233/3263",
+        "loss_ex": "76/1265",
+        "loss_te": "249/14749",
+        "loss_ch_pct": 37.79,
+        "loss_ex_pct": 6.01,
+        "loss_te_pct": 1.69,
+        "worst_case_focal_ch_te_pct": 37.79,
+        "worst_case_all_three_pct": 37.79
+      },
+      "301": {
+        "label": "walk-away optimum",
+        "loss_ch": "4973/9789",
+        "loss_ex": "911/12650",
+        "loss_te": "0",
+        "loss_ch_pct": 50.8,
+        "loss_ex_pct": 7.2,
+        "loss_te_pct": 0.0,
+        "worst_case_focal_ch_te_pct": 50.8,
+        "worst_case_all_three_pct": 50.8
+      }
+    },
+    "minimax_regret_price_focal_readings": 257,
+    "minimax_regret_worst_case_focal_pct": 9.39,
+    "minimax_regret_price_all_three_readings": 257,
+    "fine_grid_check": "step 0.01 on [240, 310]: the minimax price is 257 (the walk-away loss 1 - p/R*_te falls to 257 and jumps at the first walk-away answer 257)",
+    "ratio_worst_case_290_over_257": 4.02
+  },
+  "pooled_median": {
+    "pooled_52nd": 288,
+    "pooled_53rd": 290,
+    "dmitriev_estimator_is_53rd_of_104": 290,
+    "crossing_equation_Pr_tc_lt_p_plus_Pr_te_le_p_equals_1_at_integer_p": [
+      289
+    ],
+    "crossing_interval_open_ends": [
+      288,
+      290
+    ],
+    "note": "Pr(tc<p)+Pr(te<=p) = 1 on the open interval (288, 290): the left end 288 is the recomputed OPP, the right end 290 the study's estimator; both are sample medians of the 104 pooled answers (52nd value 288, 53rd value 290)"
+  },
+  "opp_height_check": {
+    "Pr_tc_ge_289": "1/26",
+    "tc_answers_at_or_above_289": [
+      290,
+      301
+    ],
+    "steps_to_zero": 2
+  },
+  "remark1_epsilon_margins": {
+    "margin_over_14_minus_eps": "0.3 + 0.35 eps",
+    "margin_over_32_minus_eps": "1.5 - 0.25 eps",
+    "checked_eps": [
+      "1",
+      "3",
+      "5.9"
+    ],
+    "optimum": "22 - eps"
+  },
+  "opp_equals_optimum_example": {
+    "law": "W = tc = te uniform on [0, 2]",
+    "OPP_median": 1,
+    "revenue": "p (2 - p) / 2, maximized at p = 1",
+    "use": "shows the OPP can equal the optimum; the paper says it need not and cannot be shown to"
+  }
+}

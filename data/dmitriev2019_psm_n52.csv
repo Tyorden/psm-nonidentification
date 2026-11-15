@@ -1,0 +1,74 @@
+# Van Westendorp PSM survey data, respondent-level, N = 52. REAL SURVEY DATA (rescaled units).
+# Source: Yu.G. Dmitriev, Zh.N. Zenkova, A.G. Zenkov (2019), "Statistical properties of price
+# sensitivity meter results", Tomsk State University Journal of Control and Computer Science 47,
+# 30-40, doi:10.17223/19988605/47/4 -- Table 1 ("Rezul'taty oprosa potrebitelei po metodike PSM").
+# Survey: representatives of 52 organizations, price preferences for a new B2B software product
+# after a two-month trial period. To protect commercial confidentiality the authors published the
+# prices SCALED into conventional units (u.e./unit); a common (multiplicative) rescaling leaves
+# every ratio- and percentage-valued quantity computed from these data unchanged.
+# Column mapping to the paper's four thresholds (questions 1-4 of the article, Section 1):
+#   X1 = toocheap (tc), X2 = acceptable/bargain (ch), X3 = high but acceptable (ex),
+#   X4 = tooexpensive (te).
+# NOTE: the published table lists each column in ascending order; the within-respondent pairing is
+# therefore not recoverable (rows are the comonotone pairing of the four sorted samples). All
+# quantities computed from this file (PSM curves, price points, and per-reading revenue optima)
+# are functionals of the four marginal distributions alone, so the pairing does not affect them.
+# Retrieved from the CyberLeninka open-access mirror:
+# https://cyberleninka.ru/article/n/statisticheskie-svoystva-otsenok-metoda-izmereniya-tsenovoy-chuvstvitelnosti-psm/pdf
+# (accessed 2026-07-12). Table parsed from the PDF text layer with pdftotext; transcription
+# verified by reproducing all four published price-point estimates of the article's Table 2
+# (x_min=205, x_opt=290, x_bezr=306, x_max=379) as the 53rd order statistic of the corresponding
+# pooled 104-value samples -- see scripts/04_empirical_range.py.
+respondent,toocheap,cheap,expensive,tooexpensive
+1,53,145,204,257
+2,58,172,239,287
+3,60,173,253,290
+4,66,175,254,301
+5,73,186,256,302
+6,78,186,257,305
+7,82,186,260,309
+8,85,199,274,318
+9,95,201,277,322
+10,103,202,279,324
+11,104,220,283,327
+12,108,222,293,352
+13,108,236,294,359
+14,109,251,302,360
+15,116,253,308,363
+16,125,255,310,365
+17,126,256,313,374
+18,129,257,315,379
+19,130,262,333,382
+20,138,262,335,384
+21,144,264,339,390
+22,148,266,341,398
+23,151,266,350,418
+24,152,271,350,419
+25,155,274,354,421
+26,157,276,355,422
+27,159,277,359,428
+28,162,280,362,432
+29,163,284,364,436
+30,165,286,367,439
+31,165,288,367,454
+32,167,291,368,462
+33,173,293,373,467
+34,181,294,374,472
+35,183,295,377,489
+36,184,300,381,522
+37,186,301,391,526
+38,186,303,394,529
+39,193,306,399,560
+40,196,307,403,591
+41,198,308,408,611
+42,200,311,408,620
+43,205,313,424,643
+44,206,313,427,660
+45,209,314,430,685
+46,225,320,438,690
+47,238,322,439,773
+48,259,323,474,838
+49,270,327,474,869
+50,288,336,508,1152
+51,290,343,581,1309
+52,301,361,655,1350
