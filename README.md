@@ -1,8 +1,8 @@
 # PSM non-identification
 
 Code, data transcription and results for a paper on what the Van Westendorp
-Price Sensitivity Meter can and cannot identify (paper in preparation; the
-reference will be added when it is published).
+Price Sensitivity Meter can and cannot identify (paper submitted to a journal
+and under review; the reference will be added when it is published).
 
 The paper constructs an explicit witness: two readings of one respondent
 population that produce identical Van Westendorp PSM curves (hence the same
